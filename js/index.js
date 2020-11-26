@@ -182,11 +182,11 @@ Snake.prototype.strategies = {
 		}
 		document.getElementById('score').innerText = game.score;
 		//吃到食物后，进行加速，加速规则为基础速度-间隔
-		game.level = Math.floor(game.score / 1);
+		game.level = Math.floor(game.score / 3);
 		document.getElementById('level').innerText = game.level;
 		speed -= speedVariance
-		console.log(game.level);
-		console.log(speed);
+		//console.log(game.level);
+		//console.log(speed);
 		game.pause();
 		game.start(speed);
 	},

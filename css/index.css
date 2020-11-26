@@ -1,12 +1,12 @@
-/*div {
-	border: 1px red solid;
-}*/
-
+body{
+	background-color: #cfe3ef;
+}
 .content {
 	width: 640px;
 	height: 640px;
 	margin: 30px auto;
 	position: relative;
+	
 }
 
 .btn {
@@ -17,6 +17,7 @@
 	top: 30px;
 	background-color: rgba(0, 0, 0, 0.3);
 	z-index: 2;
+	
 }
 
 .btn button {
@@ -29,6 +30,7 @@
 	left: 50%;
 	top: 50%;
 }
+
 
 .startBtn button {
 	width: 200px;
@@ -69,6 +71,7 @@
 .snakeBody {
 	background-color: #9ddbb1;
 	border-radius: 50%;
+	
 }
 
 .food {
