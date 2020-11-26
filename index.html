@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>贪吃蛇</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+
+	<body>
+
+		<div class="content">
+			<table class="score">
+				<tr>
+					<td>当前得分为：<span id="score">0</span></td>
+					<td>当前速度等级：<span id="level">0</span></td>
+					<td>难度选择：
+						<select id="select">
+							<option value="easy">简单</option>
+							<option value="normal">普通</option>
+							<option value="hard">困难</option>
+						</select>
+					</td>
+					<td>最高分为：<span id="highScore">0</span></td>
+				</tr>
+			</table>
+			<!--开始按钮-->
+			<div class="btn startBtn">
+				<button></button>
+			</div>
+			<!--结束按钮-->
+			<div class="btn pauseBtn">
+				<button></button>
+			</div>
+			<div id="snakeWrap"></div>
+		</div>
+
+	</body>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
